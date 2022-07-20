@@ -339,7 +339,8 @@ include $(LOCAL_PATH)/vendor_logtag.mk
 # Radio
 PRODUCT_PACKAGES += \
     android.hardware.radio.config@1.3.vendor \
-    android.hardware.radio@1.6.vendor
+    android.hardware.radio@1.6.vendor \
+    MtkInCallService
 
 PRODUCT_BOOT_JARS += \
     mediatek-common \
