@@ -12,3 +12,6 @@
 
 # Wifi
 /(vendor|system/vendor)/bin/wifimacaddr                                                                                  u:object_r:wifimacaddr_exec:s0
+
+# Live Display
+/(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.1-service\.zahedan                                        u:object_r:hal_lineage_livedisplay_sysfs_exec:s0

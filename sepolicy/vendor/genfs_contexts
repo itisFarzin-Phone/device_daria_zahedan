@@ -15,3 +15,6 @@ genfscon sysfs /devices/platform/11f00000.i2c6/i2c-6/6-005a/leds/vibrator      u
 
 # Touch gesture
 genfscon sysfs /devices/platform/goodix_ts.0/gesture                           u:object_r:sysfs_touchgesture:s0
+
+# Light
+genfscon sysfs /devices/platform/common_node/hbmstate                          u:object_r:sysfs_leds:s0
