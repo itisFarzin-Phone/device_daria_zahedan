@@ -23,4 +23,7 @@
     <!-- Color of the UDFPS pressed view -->
     <color name="config_udfpsColor">#ffffff</color>
 
+    <!-- Use framework FOD dimming instead of kernel dimming -->
+    <bool name="config_udfpsFrameworkDimming">true</bool>
+
 </resources>
