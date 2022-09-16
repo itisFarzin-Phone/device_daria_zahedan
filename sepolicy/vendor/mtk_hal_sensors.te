@@ -1,0 +1,3 @@
+# Touchpanel nodes
+allow mtk_hal_sensors sysfs_touchgesture:dir search;
+allow mtk_hal_sensors sysfs_touchgesture:file rw_file_perms;
