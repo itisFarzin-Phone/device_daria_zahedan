@@ -120,6 +120,32 @@ class SysfsPollingOneShotSensor : public OneShotSensor {
     int mPollFd;
 };
 
+const std::string kTsPath = "/sys/devices/platform/goodix_ts.0/gesture/";
+
+const std::string kTsSingleTapEnPath = kTsPath + "single_en";
+const std::string kTsSingleTapPressedPath = kTsPath + "single_tap_pressed";
+
+class SingleTapSensor : public SysfsPollingOneShotSensor {
+  public:
+    SingleTapSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+              sensorHandle, callback, kTsSingleTapPressedPath, kTsSingleTapEnPath,
+              "Single Tap Sensor", "org.lineageos.sensor.single_tap",
+              static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 1)) {}
+};
+
+const std::string kTsUdfpsPressedPath = kTsPath + "fp_state";
+const std::string kTsUdfpsEnabledPath = kTsPath + "fod_en";
+
+class UdfpsSensor : public SysfsPollingOneShotSensor {
+  public:
+    UdfpsSensor(int32_t sensorHandle, ISensorsEventCallback* callback)
+        : SysfsPollingOneShotSensor(
+              sensorHandle, callback, kTsUdfpsPressedPath, kTsUdfpsEnabledPath,
+              "UDFPS Sensor", "org.lineageos.sensor.udfps",
+              static_cast<SensorType>(static_cast<int32_t>(SensorType::DEVICE_PRIVATE_BASE) + 2)) {}
+};
+
 }  // namespace implementation
 }  // namespace subhal
 }  // namespace V2_1
