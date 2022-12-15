@@ -131,12 +131,6 @@
         <fqname>@2.1::IGoodixFingerprintDaemon/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.aee</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.1::IAee/AEE</fqname>
-        <fqname>@1.1::IAee/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.mediatek.hardware.apmonitor</name>
         <transport>hwbinder</transport>
         <fqname>@2.0::IApmService/apm_hidl_service</fqname>
@@ -192,15 +186,6 @@
         <fqname>@1.1::IKeymasterDevice/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>vendor.mediatek.hardware.log</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::ILog/ATMWiFiHidlServer</fqname>
-        <fqname>@1.0::ILog/ConnsysFWHidlServer</fqname>
-        <fqname>@1.0::ILog/LoggerHidlServer</fqname>
-        <fqname>@1.0::ILog/MobileLogHidlServer</fqname>
-        <fqname>@1.0::ILog/ModemLogHidlServer</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.mediatek.hardware.mdmonitor</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IMDMonitorService/default</fqname>
@@ -242,14 +227,6 @@
         <fqname>@3.0::IMtkRadioEx/mtkSlot2</fqname>
         <fqname>@3.0::IMtkRadioEx/mtkSmartRatSwitch1</fqname>
         <fqname>@3.0::IMtkRadioEx/mtkSmartRatSwitch2</fqname>
-    </hal>
-    <hal format="hidl" override="true">
-        <name>vendor.mediatek.hardware.radio_op</name>
-        <transport>hwbinder</transport>
-        <fqname>@3.0::IRadioOp/OpImsRILd1</fqname>
-        <fqname>@3.0::IRadioOp/OpImsRILd2</fqname>
-        <fqname>@3.0::IRadioOp/slot1</fqname>
-        <fqname>@3.0::IRadioOp/slot2</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.mediatek.hardware.netdagent</name>
