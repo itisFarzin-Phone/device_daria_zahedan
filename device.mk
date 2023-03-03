@@ -244,6 +244,10 @@ PRODUCT_PACKAGES += \
     android.hardware.lights-service.zahedan \
     android.hardware.light@2.0.vendor
 
+# Lineage Health
+PRODUCT_PACKAGES += \
+    vendor.lineage.health-service.default
+
 # Media
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.2.vendor \
