@@ -278,6 +278,22 @@ PRODUCT_PACKAGES += \
     SecureElement \
     Tag
 
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lmodroid
+
+PRODUCT_ENFORCE_RRO_TARGETS := *
+
+PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-lmodroid
+
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayZahedan \
+    SystemUIOverlayZahedan \
+    TelephonyOverlayZahedan \
+    TetheringResOverlay \
+    WifiResOverlay
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-mediatek \
