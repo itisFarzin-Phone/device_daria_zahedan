@@ -293,6 +293,7 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 
 PRODUCT_PACKAGES += \
     FrameworksResOverlayZahedan \
+    SettingsOverlayZahedan \
     SystemUIOverlayZahedan \
     TelephonyOverlayZahedan \
     TetheringResOverlay \
