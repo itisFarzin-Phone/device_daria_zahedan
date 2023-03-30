@@ -1,0 +1,21 @@
+type wifimacaddr_exec, exec_type, file_type, vendor_file_type;
+type wifimacaddr, domain;
+
+init_daemon_domain(wifimacaddr)
+
+allow wifimacaddr nvram_data_file:dir create_dir_perms;
+allow wifimacaddr nvram_data_file:file create_file_perms;
+allow wifimacaddr nvram_data_file:lnk_file read;
+allow wifimacaddr nvdata_file:dir create_dir_perms;
+allow wifimacaddr nvdata_file:file create_file_perms;
+allow wifimacaddr nvram_device:chr_file{read write};
+allow wifimacaddr nvram_device:chr_file open;
+allow wifimacaddr nvram_device:chr_file ioctl;
+allow wifimacaddr mnt_vendor_file:dir search;
+allow wifimacaddr sysfs_boot_mode:file read;
+allow wifimacaddr sysfs_boot_mode:file open;
+allow wifimacaddr proc_cmdline:file {read open getattr};
+allow wifimacaddr sysfs_dt_firmware_android:dir search;
+allow wifimacaddr sysfs_dt_firmware_android:file {read open getattr};
+allow wifimacaddr metadata_file:dir search;
+allow wifimacaddr gsi_metadata_file:dir search;

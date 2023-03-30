@@ -1,0 +1,2 @@
+set_prop(ccci_mdinit, system_mtk_ctl_emdlogger1_prop)
+get_prop(ccci_mdinit, system_mtk_init_svc_emdlogger1_prop)

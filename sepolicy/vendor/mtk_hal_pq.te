@@ -1,0 +1,5 @@
+allow mtk_hal_pq ion_device:chr_file rw_file_perms;
+
+allowxperm mtk_hal_pq ion_device:chr_file ioctl {
+  0x4901
+};
