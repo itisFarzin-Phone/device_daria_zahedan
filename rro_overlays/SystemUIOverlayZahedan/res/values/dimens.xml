@@ -31,5 +31,7 @@
 
     <!-- Height of the status bar header bar when on Keyguard -->
     <dimen name="status_bar_header_height_keyguard">@dimen/navigation_side_padding</dimen>
-</resources>
 
+    <!-- Bottom margin size when fingerprint in display is active -->
+    <dimen name="keyguard_indication_margin_bottom">10dp</dimen>
+</resources>
