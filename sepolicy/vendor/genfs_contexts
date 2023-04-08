@@ -7,3 +7,6 @@ genfscon sysfs /devices/platform/pca_dv2_algo/wakeup                           u
 
 # Vibrator
 genfscon sysfs /devices/platform/11f00000.i2c6/i2c-6/6-005a/leds/vibrator      u:object_r:sysfs_vibrator:s0
+
+# Touch gesture
+genfscon sysfs /devices/platform/goodix_ts.0/gesture                           u:object_r:sysfs_touchgesture:s0
