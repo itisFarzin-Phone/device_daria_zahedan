@@ -1,0 +1,5 @@
+# Properties which can't be written outside vendor
+vendor_restricted_prop(vendor_odm_camera_prop)
+
+# Properties with can be read by all domains
+typeattribute vendor_odm_camera_prop             mtk_core_property_type;
