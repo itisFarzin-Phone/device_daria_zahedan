@@ -102,3 +102,7 @@ ro.odm.pcba_oversea_customer    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.nightnoeis    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.picturezoom.mode.name    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.slowmotion    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.camera.gifmode    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.camera.smartscanmode    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.rear_camera_sub2    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.rear_camera_sub    u:object_r:vendor_odm_camera_prop:s0
