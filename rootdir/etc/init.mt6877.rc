@@ -105,7 +105,7 @@ on charger
     chmod 0666 /sys/class/leds/blue/brightness
     # prize liuyong, add for led driver config, 20221023, end
 
-    start vendor.light-default
+    start vendor.light
     # switch to sched-dvfs
     write /sys/devices/system/cpu/cpufreq/policy0/scaling_governor "schedutil"
     write /sys/devices/system/cpu/cpufreq/policy6/scaling_governor "schedutil"
