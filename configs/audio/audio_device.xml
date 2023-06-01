@@ -300,7 +300,8 @@
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <!-- prize modified for X9 use AIN3 as Mic2/BackMic/RefMic -->
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA1_L_1" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA0" />
         </path>
@@ -320,7 +321,8 @@
             <kctl name="ADC_L_Mux" value="Left Preamplifier" />
             <kctl name="PGA_L_Mux" value="AIN0" />
             <kctl name="ADC_R_Mux" value="Right Preamplifier" />
-            <kctl name="PGA_R_Mux" value="AIN2" />
+            <!-- prize modified for X9 use AIN3 as Mic2/BackMic/RefMic -->
+            <kctl name="PGA_R_Mux" value="AIN3" />
             <kctl name="DMIC0_MUX" value="DMIC_DATA0" />
             <kctl name="DMIC1_MUX" value="DMIC_DATA1_L_1" />
         </path>
