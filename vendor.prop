@@ -382,3 +382,24 @@ ro.odm.camera.smartscanmode=1
 ro.odm.rear_camera_sub2=1
 ro.odm.rear_camera_sub=1
 ro.odm.current.project=0
+
+# Factory (ODM)
+ro.odm.64B_project=1
+ro.odm.factory_test=1
+ro.odm.hor_cali=1
+ro.odm.hor_cali_show_settings_menu=1
+ro.odm.usb3_func=0
+ro.odm.otg=1
+ro.odm.dual_mic_support=1
+ro.odm.factory_calibration01=0
+ro.odm.factory_test_wbg=0
+ro.odm.factory_default_lang_en=1
+ro.odm.cust=odm
+ro.odm.del_lan_switch_btn=1
+ro.odm.board_network_type=GB/WB/CB/LfB/LtB/NB
+ro.odm.tee=2
+ro.odm.fingerprint_module=1
+ro.odm.fingerprint=gw9578
+ro.odm.auto_test=1
+ro.odm.auto_test_show_results=8
+ro.odm.doujia_dog_free=1

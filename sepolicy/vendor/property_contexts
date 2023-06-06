@@ -106,3 +106,23 @@ ro.odm.camera.gifmode    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.smartscanmode    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.rear_camera_sub2    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.rear_camera_sub    u:object_r:vendor_odm_camera_prop:s0
+
+# Factory (ODM)
+ro.odm.64B_project    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.factory_test    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.hor_cali    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.hor_cali_show_settings_menu    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.usb3_func    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.otg    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.dual_mic_support    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.factory_calibration01    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.factory_test_wbg    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.factory_default_lang_en    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.del_lan_switch_btn    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.board_network_type    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.tee    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.fingerprint_module    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.fingerprint    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.auto_test    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.auto_test_show_results    u:object_r:vendor_odm_factory_prop:s0
+ro.odm.doujia_dog_free    u:object_r:vendor_odm_factory_prop:s0

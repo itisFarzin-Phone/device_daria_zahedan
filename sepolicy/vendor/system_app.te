@@ -1,0 +1,2 @@
+get_prop(system_app, vendor_odm_camera_prop)
+get_prop(system_app, vendor_odm_factory_prop)
