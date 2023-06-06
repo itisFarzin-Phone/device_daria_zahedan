@@ -1083,6 +1083,11 @@ vendor/etc/libnfc-nci.conf
 vendor/etc/st21nfc_conf.txt
 vendor/lib64/nfc_nci.st21nfc.st.so
 
+# Factory (Calibration)
+-vendor/app/EmCamera/EmCamera.apk
+-vendor/app/HorCali/HorCali.apk
+-vendor/app/SensorHub/SensorHub.apk
+
 # Firmware
 vendor/etc/MNL_Config.xml
 vendor/firmware/BT_FW.cfg
