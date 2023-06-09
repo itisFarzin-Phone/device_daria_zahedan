@@ -1517,6 +1517,7 @@ vendor/lib64/libformatter.so
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-mtk-neuron
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-mtk-neuron.rc
 vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-mtk-mdla-dsp-gpu.xml
+vendor/etc/nhw
 vendor/lib/libarmnn.so
 vendor/lib/libarmnn_ndk.mtk.vndk.so
 vendor/lib/libneuroeara.so
@@ -2066,6 +2067,8 @@ vendor/etc/permissions/com.mediatek.hardware.vow.xml
 vendor/etc/permissions/com.mediatek.hardware.vow_dsp.xml
 vendor/lib/libdynamiclog.so
 vendor/lib64/libforkexecwrap.so
+vendor/bin/meta_tst
+vendor/etc/partition_permission.sh
 
 # TEE
 vendor/thh/ta/0102030405060708090a0b0c0d0e0f10.ta
