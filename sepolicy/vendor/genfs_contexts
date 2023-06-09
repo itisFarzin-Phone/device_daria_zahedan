@@ -3,6 +3,8 @@ genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-0064/power_supply       u
 
 # Wakeup
 genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-0066/wakeup             u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11d01000.i2c7/i2c-7/7-0064/power_supply/cw-bat/wakeup143 u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/11cb0000.i2c3/i2c-3/3-0066/wakeup/wakeup141   u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/pca_dv2_algo/wakeup                           u:object_r:sysfs_wakeup:s0
 
 # Vibrator
