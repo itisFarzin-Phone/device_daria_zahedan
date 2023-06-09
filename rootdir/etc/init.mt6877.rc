@@ -53,7 +53,16 @@ on init
 # prize added by pengzhipeng, add charge_limit, 20220509-start
     chmod 0666 /sys/devices/platform/charger/cmd_charge_disable
 # prize added by pengzhipeng, add charge_limit, 20220509-end
-	
+
+# prize added by liguoning for x9-443, 20221214
+    chmod 0666 /sys/devices/platform/charger/charging_scenario
+
+#prize add by xuejian for gesture 20230210	
+	chmod 0664 /sys/devices/platform/common_node/gesture
+    chown root system /sys/devices/platform/common_node/gesture
+	chmod 0664 /sys/devices/platform/common_node/finger
+    chown root system /sys/devices/platform/common_node/finger
+
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited
@@ -226,6 +235,7 @@ on post-fs-data
     write /sys/block/sdc/queue/iostats 0
     write /sys/block/sdc/queue/read_ahead_kb 2048
     write /sys/block/sdc/queue/nr_requests 256
+    write /sys/block/sdc/queue/scheduler "deadline"
     write /sys/block/dm-0/queue/read_ahead_kb 2048
     write /sys/block/dm-1/queue/read_ahead_kb 2048
     write /sys/block/dm-2/queue/read_ahead_kb 2048
@@ -413,6 +423,7 @@ on post-fs-data
     #Fingerprint
     chmod 0666 /dev/goodix_fp
 	mkdir /data/vendor/goodix 0770 system system
+	mkdir /mnt/vendor/persist/goodix 0770 system system
 	
 	# prize-add focaltech_fp-pengzhipeng-20220309-start
 	chmod 0666 /dev/focaltech_fp
@@ -789,7 +800,10 @@ on post-fs-data
     chmod 0664 /sys/devices/platform/11f00000.i2c6/i2c-6/6-005a/leds/vibrator/brightness
     chmod 0664 /sys/devices/platform/11f00000.i2c6/i2c-6/6-005a/leds/vibrator/duration
     #prize add by liutuo gor linear-motor end
-
+    #prize add by lvyuanchuan for X9-443,20221215
+    chmod 0666 /sys/devices/platform/charger/charging_scenario
+    #prize add by lvyuanchuan for X9-725,20230109
+    chmod 0666 /sys/devices/platform/charger/cmd_charge_disable
 on zygote-start
     write /proc/bootprof "INIT:zygote-start"
 
@@ -920,6 +934,10 @@ on boot
     chmod 0440 /proc/ppm/policy/perfserv_max_perf_idx
     chown system system /proc/ppm/policy/perfserv_perf_idx
     chmod 0660 /proc/ppm/policy/perfserv_perf_idx
+    # prize add by majiangtao for frequency Select 20230103 start
+    chown system system /proc/ppm/policy/hard_userlimit_min_cpu_freq
+    chmod 0666 /proc/ppm/policy/hard_userlimit_min_cpu_freq
+    # prize add by majiangtao for frequency Select 20230103 end
     chown system system /proc/ppm/policy/userlimit_min_cpu_freq
     chmod 0660 /proc/ppm/policy/userlimit_min_cpu_freq
     chown system system /proc/ppm/policy/userlimit_max_cpu_freq
