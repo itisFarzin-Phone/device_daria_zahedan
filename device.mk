@@ -304,7 +304,9 @@ PRODUCT_PACKAGES += \
     SettingsProviderOverlayZahedan \
     SystemUIOverlayZahedan \
     TelephonyOverlayZahedan \
+    TetheringResMainlineOverlay \
     TetheringResOverlay \
+    WifiResMainlineOverlay \
     WifiResOverlay
 
 # Power
