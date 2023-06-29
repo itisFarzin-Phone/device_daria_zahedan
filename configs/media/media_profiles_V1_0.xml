@@ -310,28 +310,19 @@
                    sampleRate="48000"
                    channels="2" />
         </EncoderProfile>
+        <!-- prize add by zhuzhengjiang for cts:testConstrainedHighSpeedCapability start -->
         <EncoderProfile quality="highspeedlow" fileFormat="mp4" duration="30">
             <Video codec="h264"
-                   bitRate="9000000"
-                   width="1280"
-                   height="720"
+                   bitRate="17000000"
+                   width="1920"
+                   height="1080"
                    frameRate="120" />
             <Audio codec="aac"
                    bitRate="256000"
                    sampleRate="48000"
                    channels="2" />
         </EncoderProfile>
-        <EncoderProfile quality="highspeed720p" fileFormat="mp4" duration="30">
-            <Video codec="h264"
-                   bitRate="9000000"
-                   width="1280"
-                   height="720"
-                   frameRate="120" />
-            <Audio codec="aac"
-                   bitRate="256000"
-                   sampleRate="48000"
-                   channels="2" />
-        </EncoderProfile>
+        <!-- prize add by zhuzhengjiang for cts:testConstrainedHighSpeedCapability end -->
         <EncoderProfile quality="highspeed1080p" fileFormat="mp4" duration="30">
             <Video codec="h264"
                    bitRate="17000000"
