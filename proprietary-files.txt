@@ -1396,7 +1396,7 @@ vendor/etc/init/android.hardware.keymaster@4.1-service.beanpod.rc
 vendor/etc/init/microtrust.bp_kmsetkey_ca.rc
 vendor/etc/init/microtrust.rc
 vendor/etc/init/vendor.mediatek.hardware.keymaster_attestation@1.1-service.rc
-vendor/lib/hw/kmsetkey.beanpod.so
+vendor/lib/hw/kmsetkey.beanpod.so|531f41f47ae13b50e2588c90b73977464e4c88ba
 vendor/lib/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib/libTEECommon.so
 vendor/lib/libdecrypt.so
@@ -1405,7 +1405,7 @@ vendor/lib/libgz_uree.so
 vendor/lib/libteei_daemon_vfs.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.0.so
 vendor/lib/vendor.mediatek.hardware.keymaster_attestation@1.1.so
-vendor/lib64/hw/kmsetkey.beanpod.so
+vendor/lib64/hw/kmsetkey.beanpod.so|9235fce6ac18af8f41e50acd8f1718e7dcb1c71a
 vendor/lib64/hw/vendor.mediatek.hardware.keymaster_attestation@1.1-impl.so
 vendor/lib64/libTEECommon.so
 vendor/lib64/libdecrypt.so
@@ -1620,7 +1620,7 @@ vendor/etc/init/init.cccirpcd.rc
 vendor/etc/init/md_monitor.rc
 vendor/etc/init/mtkrild.rc
 vendor/etc/init/muxreport.rc
-vendor/etc/ecc_list.xml
+vendor/etc/ecc_list.xml|0c7455d8885bc451188e59bff7a981de570d77c2
 vendor/etc/ecc_list_OP01.xml
 vendor/etc/ecc_list_OP02.xml
 vendor/etc/ecc_list_OP09.xml
@@ -2078,7 +2078,7 @@ vendor/thh/ta/93feffccd8ca11e796c7c7a21acb4932.ta
 vendor/thh/ta/c09c9c5daa504b78b0e46eda61556c3a.ta
 vendor/thh/ta/c1882f2d885e4e13a8c8e2622461b2fa.ta
 vendor/thh/ta/d91f322ad5a441d5955110eda3272fc0.ta
-vendor/thh/ta/isee_model.json
+vendor/thh/ta/isee_model.json|ea2ed65e2c9b5d89cfde5124731fa6cfd370ef65
 
 # WiFi
 vendor/bin/hw/hostapd
