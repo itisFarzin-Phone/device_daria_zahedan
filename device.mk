@@ -240,7 +240,8 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.zahedan
+    android.hardware.lights-service.zahedan \
+    android.hardware.light@2.0.vendor
 
 # Media
 PRODUCT_PACKAGES += \
