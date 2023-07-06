@@ -1715,6 +1715,7 @@ vendor/lib/libsimlock.so
 vendor/lib/libsimmelock.so
 vendor/lib/libsysenv.so
 vendor/lib/libminiui.so
+vendor/lib/libpixelflinger.so
 vendor/lib/libtranslator_mapi_v3.0.so
 vendor/lib/libtranslator_mdmi_v2.8.2.so
 vendor/lib/libtranslator_utils.so
@@ -1749,6 +1750,7 @@ vendor/lib64/libsimlock.so
 vendor/lib64/libsimmelock.so
 vendor/lib64/libsysenv.so
 vendor/lib64/libminiui.so
+vendor/lib64/libpixelflinger.so
 vendor/lib64/libtranslator_mapi_v3.0.so
 vendor/lib64/libtranslator_mdmi_v2.8.2.so
 vendor/lib64/libtranslator_utils.so
