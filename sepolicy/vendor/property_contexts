@@ -21,6 +21,8 @@ ro.odm.camera.lensapp    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.macroid    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.scancontact    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.supernight    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.camera.insert.resolution    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.camera.rear.resolution    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera_fn_facebeauty    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camerafoursizes    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camlocationoff    u:object_r:vendor_odm_camera_prop:s0
