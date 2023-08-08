@@ -821,6 +821,7 @@ vendor/lib64/libmtkcam_pipelinepolicy-smvr.so
 vendor/lib64/libmtkcam_pipelinepolicy.so
 vendor/lib64/libmtkcam_pipelinepolicy_factory.so
 vendor/lib64/libmtkcam_pipelinepolicy_factory.so
+vendor/lib64/libmtkcam.plugin.mfnr.hdr.so
 vendor/lib64/libmtkcam_prerelease.so
 vendor/lib64/libmtkcam_rsc.so
 vendor/lib64/libmtkcam_scenariorecorder.so
@@ -879,6 +880,7 @@ vendor/lib64/libmorpho_Superlowlight.so
 vendor/lib64/libmorpho_video_stabilizer.so
 vendor/lib64/libtensorflowlite.so
 vendor/lib64/libHDRDetectUtils.so
+vendor/lib64/libHDRUtils.so
 system_ext/lib64/libaed.so
 system_ext/lib64/libapuwareapusys.mtk.so
 system_ext/lib64/libapuwareapusys_v2.mtk.so
@@ -1665,8 +1667,8 @@ vendor/bin/md_monitor_ctrl
 vendor/bin/mnld
 vendor/bin/mrdump_tool
 vendor/bin/muxreport
-vendor/etc/apdb/APDB_MT6853_S01__W2313
-vendor/etc/apdb/APDB_MT6853_S01__W2313_ENUM
+vendor/etc/apdb/APDB_MT6853_S01__W2321
+vendor/etc/apdb/APDB_MT6853_S01__W2321_ENUM
 vendor/etc/init/gsm0710muxd.rc
 vendor/etc/init/init.cccimdinit.rc
 vendor/etc/init/init.cccirpcd.rc
