@@ -154,7 +154,7 @@ vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/AudioLog_dynamic.xml
 vendor/lib/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib/hw/audio.primary.mt6877.so
+vendor/lib/hw/audio.primary.mt6877.so|bcfa9473a30ea115223be54344b248a724c40067
 vendor/lib/hw/audio.r_submix.mt6877.so
 vendor/lib/hw/awinic.audio.effect.so
 vendor/lib/libMtkSpeechEnh.so
@@ -191,7 +191,7 @@ vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.1.so
 vendor/lib/vendor.mediatek.hardware.bluetooth.audio@2.2.so
 vendor/lib64/hw/android.hardware.audio@6.0-impl-mediatek.so
 vendor/lib64/hw/android.hardware.audio@7.0-impl-mediatek.so
-vendor/lib64/hw/audio.primary.mt6877.so
+vendor/lib64/hw/audio.primary.mt6877.so|0d755f4d9677df8eaff6710c6b3d749faa40927f
 vendor/lib64/hw/audio.r_submix.mt6877.so
 vendor/lib64/libMtkSpeechEnh.so
 vendor/lib64/lib_iir.so
