@@ -959,6 +959,9 @@ lib64/vendor.mediatek.hardware.pq@2.0.so
 lib64/vendor.mediatek.hardware.pq@2.1.so
 lib64/vendor.mediatek.hardware.pq@2.2.so
 lib64/vendor.mediatek.hardware.pq@2.3.so
+lib64/libged_sys.so
+lib64/libsf_cpupolicy.so
+lib64/libgralloc_extra_sys.so
 vendor/bin/hw/android.hardware.graphics.allocator@4.0-service-mediatek
 vendor/bin/hw/vendor.mediatek.hardware.pq@2.2-service
 vendor/bin/getgameserver
