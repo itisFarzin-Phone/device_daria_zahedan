@@ -356,6 +356,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_PACKAGES += \
+    als_correction_service.zahedan \
     android.hardware.sensors@1.0.vendor \
     android.hardware.sensors@2.1.vendor \
     android.hardware.sensors@2.0-ScopedWakelock.vendor \
