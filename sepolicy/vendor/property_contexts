@@ -108,6 +108,7 @@ ro.odm.camera.gifmode    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.camera.smartscanmode    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.rear_camera_sub2    u:object_r:vendor_odm_camera_prop:s0
 ro.odm.rear_camera_sub    u:object_r:vendor_odm_camera_prop:s0
+ro.odm.defaultmodes    u:object_r:vendor_odm_camera_prop:s0
 
 # Factory (ODM)
 ro.odm.64B_project    u:object_r:vendor_odm_factory_prop:s0

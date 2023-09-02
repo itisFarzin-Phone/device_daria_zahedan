@@ -392,6 +392,9 @@ ro.odm.camera.smartscanmode=1
 ro.odm.rear_camera_sub2=1
 ro.odm.rear_camera_sub=1
 ro.odm.current.project=0
+ro.odm.defaultmodes=LowLight,Video,Picture,UHD,Picselfie
+ro.odm.picturezoom.mode.name=50MP
+ro.odm.fps60=1
 
 # Factory (ODM)
 ro.odm.64B_project=1
