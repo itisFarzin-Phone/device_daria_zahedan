@@ -396,6 +396,7 @@ ro.odm.current.project=0
 ro.odm.defaultmodes=LowLight,Video,Picture,UHD,Picselfie
 ro.odm.picturezoom.mode.name=50MP
 ro.odm.fps60=1
+ro.odm.camera.minbrightness=10
 
 # Factory (ODM)
 ro.odm.64B_project=1
