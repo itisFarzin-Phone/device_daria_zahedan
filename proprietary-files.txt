@@ -2105,7 +2105,6 @@ vendor/etc/init/android.hardware.secure_element@1.2-service-mediatek.rc
 # Sensors
 vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
 vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
-vendor/etc/sensors/hals.conf
 vendor/lib/libimgsensorca.so
 vendor/lib/librgbwlightsensor.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
