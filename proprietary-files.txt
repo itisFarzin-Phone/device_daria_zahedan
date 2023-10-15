@@ -2110,6 +2110,7 @@ vendor/bin/hw/android.hardware.sensors@2.0-service.multihal-mediatek
 vendor/etc/init/android.hardware.sensors@2.0-service.multihal-mediatek.rc
 vendor/lib/libimgsensorca.so
 vendor/lib/librgbwlightsensor.so
+vendor/lib/libsensorndkbridge.so:vendor/lib/libsensorndkbridge-v30.so
 vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/sensors.mt6877.so
 vendor/lib64/libcam.halsensor.hwintegration.so
@@ -2123,6 +2124,7 @@ vendor/lib64/libimgsensorca.so
 vendor/lib64/libksensor.so
 vendor/lib64/libprizeem_sensor_jni.so
 vendor/lib64/librgbwlightsensor.so
+vendor/lib64/libsensorndkbridge.so:vendor/lib64/libsensorndkbridge-v30.so
 vendor/lib64/libsensor_custom.so
 
 # Soundtrigger
