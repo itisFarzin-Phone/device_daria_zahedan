@@ -75,4 +75,7 @@
     before the screen has had chance to switch out of HBM mode -->
     <integer name="config_udfpsDimmingDisableDelay">5</integer>
 
+    <!-- Udfps animation -->
+    <dimen name="udfps_animation_offset">3dp</dimen>
+
 </resources>
