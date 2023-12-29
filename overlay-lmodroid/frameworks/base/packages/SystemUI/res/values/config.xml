@@ -70,4 +70,6 @@
     <!-- Udfps animation -->
     <dimen name="udfps_animation_offset">3dp</dimen>
 
+    <!-- Size to enlarge Enrollment GHBM Dot Size by in DP. -->
+    <dimen name="udfps_enroll_dot_additional_size">4dp</dimen>
 </resources>
