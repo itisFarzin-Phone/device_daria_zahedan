@@ -1,0 +1,1 @@
+require board=k6877v1_64_k419|mt6877|zahedan
