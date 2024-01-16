@@ -72,6 +72,7 @@ Return<bool> BiometricsFingerprint::isUdfps(uint32_t) {
 }
 
 Return<void> BiometricsFingerprint::onFingerDown(uint32_t, uint32_t, float, float) {
+    usleep(50*1000);
     goodixExtCmd(0, 1, 0);
 
     return Void();
