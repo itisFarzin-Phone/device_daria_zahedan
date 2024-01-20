@@ -449,6 +449,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libutils-v32
 
+TARGET_VIBRATOR_SUPPORTS_EFFECTS := true
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     hostapd \
