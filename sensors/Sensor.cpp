@@ -42,12 +42,7 @@ static bool readFpState(int fd, int& screenX, int& screenY) {
     }
 
     rc = sscanf(buffer, "%d,%d,%d", &screenX, &screenY, &state);
-    if (rc == 1) {
-        // If only the first variable can be matched assume
-        // that the node only reports the state
-        screenX = 0;
-        screenY = 0;
-    } else if (rc < 3) {
+    if (rc < 0) {
         ALOGE("failed to parse fp state: %d", rc);
         return false;
     }
