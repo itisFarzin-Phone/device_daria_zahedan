@@ -1142,7 +1142,6 @@ vendor/etc/st21nfc_conf.txt
 vendor/lib64/nfc_nci.st21nfc.st.so
 
 # Factory (Calibration)
--vendor/app/EmCamera/EmCamera.apk
 -vendor/app/HorCali/HorCali.apk
 -vendor/app/SensorHub/SensorHub.apk
 
@@ -1262,7 +1261,6 @@ vendor/etc/security/cacerts/76579174.0
 vendor/etc/security/cacerts/7892ad52.0
 vendor/etc/security/cacerts/7a7c655d.0
 vendor/etc/security/cacerts/7a819ef2.0
-vendor/etc/security/cacerts/7c302982.0
 vendor/etc/security/cacerts/81b9768f.0
 vendor/etc/security/cacerts/82223c44.0
 vendor/etc/security/cacerts/83e9984f.0
@@ -1303,7 +1301,6 @@ vendor/etc/security/cacerts/bc3f2570.0
 vendor/etc/security/cacerts/bd43e1dd.0
 vendor/etc/security/cacerts/bdacca6f.0
 vendor/etc/security/cacerts/bf64f35b.0
-vendor/etc/security/cacerts/c2c1704e.0
 vendor/etc/security/cacerts/c491639e.0
 vendor/etc/security/cacerts/c51c224c.0
 vendor/etc/security/cacerts/c559d742.0
@@ -1313,7 +1310,6 @@ vendor/etc/security/cacerts/cb1c3204.0
 vendor/etc/security/cacerts/ccc52f49.0
 vendor/etc/security/cacerts/cf701eeb.0
 vendor/etc/security/cacerts/d06393bb.0
-vendor/etc/security/cacerts/d0cddf45.0
 vendor/etc/security/cacerts/d16a5865.0
 vendor/etc/security/cacerts/d18e9066.0
 vendor/etc/security/cacerts/d39b0a2c.0
@@ -1360,14 +1356,10 @@ vendor/etc/vintf/manifest/gnss-default.xml:vendor/etc/vintf/manifest/gnss-mtk.xm
 vendor/etc/vintf/manifest/gnss@2.1-service.xml:vendor/etc/vintf/manifest/gnss@2.1-service-mtk.xml
 vendor/etc/slp_conf
 vendor/lib/hw/gps.default.so
-vendor/lib/librpc.so
-vendor/lib/libviagpsrpc.so
 vendor/lib64/hw/android.hardware.gnss-impl-mediatek.so
 vendor/lib64/hw/android.hardware.gnss@2.1-impl-mediatek.so
 vendor/lib64/hw/gps.default.so
 vendor/lib64/libDR.so
-vendor/lib64/librpc.so
-vendor/lib64/libviagpsrpc.so
 
 # Health
 vendor/bin/fuelgauged
