@@ -62,7 +62,18 @@ on init
     chown root system /sys/devices/platform/common_node/gesture
 	chmod 0664 /sys/devices/platform/common_node/finger
     chown root system /sys/devices/platform/common_node/finger
-
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/fod_en
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/fod_en
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/fod_pressed
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/fod_pressed
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/double_en
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/double_en
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/double_tap_pressed
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/double_tap_pressed
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/single_en
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/single_en
+    chown root system /sys/devices/platform/goodix_ts.0/gesture/single_tap_pressed
+    chmod 0664 /sys/devices/platform/goodix_ts.0/gesture/single_tap_pressed
 on late-init
     write /proc/bootprof "INIT:late-init"
 # enable rcu_expedited

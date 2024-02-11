@@ -129,9 +129,6 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 TARGET_BOARD_PLATFORM := mt6877
 BOARD_HAS_MTK_HARDWARE := true
 
-# Power
-TARGET_TAP_TO_WAKE_NODE := "/sys/devices/platform/goodix_ts.0/gesture/double_en"
-
 # Recovery
 TARGET_RECOVERY_PIXEL_FORMAT := RGBX_8888
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6877
