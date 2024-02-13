@@ -30,7 +30,7 @@ namespace V2_1 {
 namespace implementation {
 
 static constexpr const char *kHbmStatePath = "/sys/devices/platform/common_node/hbmstate";
-static constexpr const char *kBrightnessPath = "/sys/class/leds/lcd-backlight/brightness";
+static constexpr const char *kBrightnessPath = "/sys/devices/platform/14013000.dsi/hbm";
 
 bool SunlightEnhancement::isSupported() {
     std::ofstream hbm_file(kHbmStatePath);
@@ -50,7 +50,7 @@ Return<bool> SunlightEnhancement::isEnabled() {
 
 Return<bool> SunlightEnhancement::setEnabled(bool enabled) {
     std::ofstream brightness_file(kBrightnessPath);
-    brightness_file << (enabled ? "260" : "270");
+    brightness_file << (enabled ? "1" : "0");
     if (brightness_file.fail())
         LOG(ERROR) << "Failed to write " << kBrightnessPath;
     return !brightness_file.fail();

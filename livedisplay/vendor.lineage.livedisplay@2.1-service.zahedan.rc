@@ -1,4 +1,5 @@
 on boot
+    chown system system /sys/devices/platform/14013000.dsi/hbm
     chown system system /sys/devices/platform/common_node/hbmstate
 
 service vendor.livedisplay-hal-2-1 /vendor/bin/hw/vendor.lineage.livedisplay@2.1-service.zahedan
