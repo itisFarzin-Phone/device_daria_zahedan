@@ -90,6 +90,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.zahedan
 
 TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
 
 # Boot control
 PRODUCT_PACKAGES += \
