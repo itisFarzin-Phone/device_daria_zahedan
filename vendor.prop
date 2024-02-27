@@ -93,6 +93,8 @@ ro.crypto.volume.filenames_mode=aes-256-cts
 ro.incremental.enable=yes
 
 # Dalvik
+dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5
+dalvik.vm.boot-dex2oat-threads=4
 dalvik.vm.heapstartsize=24m
 dalvik.vm.heapgrowthlimit=256m
 dalvik.vm.heapsize=512m
