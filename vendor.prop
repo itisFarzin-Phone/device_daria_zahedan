@@ -217,6 +217,10 @@ ro.vendor.mtk_uicc_clf=1
 # OEM Unlock
 ro.oem_unlock_supported=1
 
+# OTA
+ro.virtual_ab.batch_writes=true
+ro.virtual_ab.compression.threads=true
+
 # Radio
 persist.vendor.radio.fd.counter=150
 persist.vendor.radio.fd.off.counter=50
