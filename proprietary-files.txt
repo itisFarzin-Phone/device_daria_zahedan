@@ -1305,7 +1305,6 @@ vendor/etc/security/cacerts/c491639e.0
 vendor/etc/security/cacerts/c51c224c.0
 vendor/etc/security/cacerts/c559d742.0
 vendor/etc/security/cacerts/c90bc37d.0
-vendor/etc/security/cacerts/cb156124.0
 vendor/etc/security/cacerts/cb1c3204.0
 vendor/etc/security/cacerts/ccc52f49.0
 vendor/etc/security/cacerts/cf701eeb.0
