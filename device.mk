@@ -443,7 +443,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.mediatek
+    android.hardware.vibrator-service.zahedan
 
 # VNDK
 PRODUCT_PACKAGES += \
