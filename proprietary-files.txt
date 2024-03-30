@@ -1632,6 +1632,7 @@ vendor/lib/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib/vendor.mediatek.hardware.mtkpower@1.2.so
 vendor/lib64/hw/vendor.mediatek.hardware.mtkpower@1.2-impl.so
+vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/lib_eara_io_scndet.so
 vendor/lib64/lib_eara_io_service.so
 vendor/lib64/lib_eara_io_systracer.so
@@ -1643,6 +1644,7 @@ vendor/lib64/libperfctl_vendor.so
 vendor/lib64/libpower_timer.so
 -vendor/lib64/libpowerhal.so
 vendor/lib64/libpowerhalwrap_vendor.so
+vendor/lib64/lmodroid-power-ext-V1-ndk_platform.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.0.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.1.so
 vendor/lib64/vendor.mediatek.hardware.mtkpower@1.2.so
