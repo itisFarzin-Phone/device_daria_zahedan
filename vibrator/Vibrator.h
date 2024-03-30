@@ -17,9 +17,7 @@
 #pragma once
 
 #include <aidl/android/hardware/vibrator/BnVibrator.h>
-#ifdef VIBRATOR_SUPPORTS_EFFECTS
 #include <map>
-#endif
 
 namespace aidl {
 namespace android {
@@ -30,7 +28,6 @@ const std::string kVibratorState       = "/sys/class/leds/vibrator/state";
 const std::string kVibratorDuration    = "/sys/class/leds/vibrator/duration";
 const std::string kVibratorActivate    = "/sys/class/leds/vibrator/activate";
 
-#ifdef VIBRATOR_SUPPORTS_EFFECTS
 const std::string kVibratorStrength    = "/sys/class/leds/vibrator/gain";
 
 static std::map<Effect, int32_t> vibEffects = {
@@ -45,13 +42,10 @@ static std::map<EffectStrength, int32_t> vibStrengths = {
     { EffectStrength::MEDIUM, 96},
     { EffectStrength::STRONG, 128}
 };
-#endif
 
 class Vibrator : public BnVibrator {
 public:
-#ifdef VIBRATOR_SUPPORTS_EFFECTS
     Vibrator();
-#endif
     ndk::ScopedAStatus getCapabilities(int32_t* _aidl_return) override;
     ndk::ScopedAStatus off() override;
     ndk::ScopedAStatus on(int32_t timeoutMs,
@@ -84,12 +78,10 @@ public:
                                    const std::shared_ptr<IVibratorCallback> &callback) override;
 private:
     static ndk::ScopedAStatus setNode(const std::string path, const int32_t value);
-#ifdef VIBRATOR_SUPPORTS_EFFECTS
     static bool exists(const std::string path);
     static int getNode(const std::string path, const int fallback);
     bool mVibratorStrengthSupported;
     int mVibratorStrengthMax;
-#endif
     ndk::ScopedAStatus activate(const int32_t timeoutMs);
 };
 

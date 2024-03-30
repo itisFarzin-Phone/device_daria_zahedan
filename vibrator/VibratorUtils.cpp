@@ -60,7 +60,6 @@ ndk::ScopedAStatus Vibrator::activate(const int32_t timeoutMs) {
     return ndk::ScopedAStatus::ok();
 }
 
-#ifdef VIBRATOR_SUPPORTS_EFFECTS
 bool Vibrator::exists(const std::string path) {
     std::ofstream file(path);
     return file.is_open();
@@ -78,7 +77,6 @@ int Vibrator::getNode(const std::string path, const int fallback) {
     file >> value;
     return value;
 }
-#endif
 
 }  // namespace vibrator
 }  // namespace hardware

@@ -17,8 +17,4 @@ LOCAL_SHARED_LIBRARIES := \
     libbinder_ndk \
     android.hardware.vibrator-V2-ndk
 
-ifeq ($(TARGET_VIBRATOR_SUPPORTS_EFFECTS),true)
-    LOCAL_CFLAGS += -DVIBRATOR_SUPPORTS_EFFECTS
-endif
-
 include $(BUILD_EXECUTABLE)
