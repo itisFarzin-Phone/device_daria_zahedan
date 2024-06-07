@@ -18,3 +18,6 @@
 
 # HBM
 /sys/devices/platform/14013000.dsi/hbm											 u:object_r:sysfs_leds:s0
+
+# Vibrator
+/(vendor|system/vendor)/bin/hw/android\.hardware\.vibrator-service\.zahedan                                              u:object_r:hal_vibrator_default_exec:s0
