@@ -1,2 +1,0 @@
-allow mtk_hal_audio persist_audio_file:dir r_dir_perms;
-allow mtk_hal_audio persist_audio_file:file r_file_perms;

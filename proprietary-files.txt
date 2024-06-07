@@ -29,7 +29,6 @@ vendor/lib64/vendor.mediatek.hardware.apuware.utils@2.0.so
 vendor/lib64/vendor.mediatek.hardware.apuware.xrp@2.0.so
 
 # Audio
-vendor/bin/hw/android.hardware.audio.service.mediatek
 vendor/bin/atcid
 vendor/bin/audiocmdservice_atci
 vendor/bin/mt6660_calibration
@@ -148,7 +147,6 @@ vendor/etc/audio_param/VolumeGainMap_AudioParam.xml
 vendor/etc/audio_param/VolumeGainMap_ParamUnitDesc.xml
 vendor/etc/audio_param/Volume_AudioParam.xml
 vendor/etc/audio_param/Volume_ParamUnitDesc.xml
-vendor/etc/init/android.hardware.audio.service.mediatek.rc
 vendor/etc/init/atcid.rc
 vendor/etc/init/audiocmdservice_atci.rc
 vendor/etc/AudioLog_dynamic.xml
